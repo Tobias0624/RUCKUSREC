@@ -1,0 +1,60 @@
+
+.carousel-inner{
+  position: relative;
+  background-color: purple;
+
+}
+
+.carousel-item{
+  position: absolute;
+  background-color: green;
+
+}
+
+.container{
+  position: relative;
+  margin: 0;
+  width: 100%;
+}
+
+.container-fluid{
+  position: absolute;
+  margin: -37.625em auto 37.625em auto;
+}
+
+.jum{
+  width:100%;
+  height: 75%;
+}
+
+.row{
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #C2FFD9;
+}
+
+.section{
+  background-color: forestgreen;
+}
+
+
+#Introduction{
+  position: relative;
+
+}
+
+#Marketing{
+  position: relative;
+  align-items: center;
+}
+
+#Employees{
+  align-content: center;
+}
+
+.main{
+  background-color: #d1e8e9;
+  opacity: 0.9;
+  background-image: radial-gradient( ellipse farthest-corner at 12px 12px , #32d34e, #32d34e 50%, #d1e8e9 50%);
+  background-size: 12px 12px;
+}

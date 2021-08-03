@@ -1,0 +1,143 @@
+/*GLOBAL RULES*/
+
+/*CONTAINERS*/
+
+.body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.container-fluid{
+  position: relative;
+  max-width: 100%;
+}
+
+/*NAVBAR*/
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+/*CAROUSEL*/
+
+.carosel-inner{
+  height: 100%;
+}
+
+.carousel-item{
+    height:100vh;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.carousel-item .img{
+  visibility: hidden;
+}
+
+.carousel-item .with-bg-1{
+  background: url('imgs/hemp-2945969_1280.jpg');
+}
+
+.captions{
+  height: 100%;
+ position: relative;
+ /**overflow: hidden;**/
+bottom: 20rem;
+}
+
+.captions .Caption-Heading1{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: left;
+
+  /* Apply animation to this element */
+ animation: caption 3s linear;
+}
+
+
+@keyframes caption{
+ 0%   {
+ transform: translateX(200%);
+ }
+ 100% {
+ transform: translateX(0%);
+ }
+}
+
+/*JUMBOTRON*/
+
+.tron{
+  height: 50vh;
+  width: 95%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*CARD COVERS*/
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  transition: transform .3s;
+  max-width: 100%;
+}
+
+.card-cover:hover{
+   transform: scale(1.1);
+}
+
+/*TEXT*/
+
+.lead{
+  color: #536162;
+}
+
+.featurette-heading{
+
+}
+
+/*SEPORATORS*/
+.norm-rule{
+  border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 100%;
+    margin: 16px auto;
+}
+
+
+.norm-rule:after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
